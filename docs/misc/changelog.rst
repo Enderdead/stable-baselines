@@ -25,6 +25,7 @@ Bug Fixes:
 - Added ``**kwarg`` pass through for ``reset`` method in ``atari_wrappers.FrameStack`` (@solliet)
 - Fix consistency in ``setup_model()`` for SAC, ``target_entropy`` now uses ``self.action_space`` instead of ``self.env.action_space`` (@solliet)
 - Fix reward threshold in ``test_identity.py``
+- Fix tensorboard indexing for PPO2 (@enderdead)
 
 Deprecations:
 ^^^^^^^^^^^^^
